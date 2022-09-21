@@ -20,3 +20,6 @@ image {
     border: 1cm;
 }
 /* Change the font-family of your list */
+*{
+    font-family: "Courier New";
+}
