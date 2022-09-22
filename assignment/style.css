@@ -3,23 +3,40 @@ body {
     background-color: bisque;
 }
 /* Make the header and footer a different color from the background */
-h1 {
-    color: violet;
+header {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 159, 102);
+}
+footer {
+    background-color: rgb(207, 159, 102);
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
-    align-items: center;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    font-family: "Times New Roman";
 }
 /* Make your p tag a different color and italic */
 p {
-    color: darkcyan;
-    font: italic;
+    color: grey;
+    font-style: italic;
+    text-align: center;
 }
 /* Put a border around your image */
-image {
-    border: 1cm;
+img {
+    border: 50px solid black;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* from https://www.w3schools.com/howto/howto_css_image_center.asp */
+  }  
 /* Change the font-family of your list */
-*{
+ul {
     font-family: "Courier New";
 }
